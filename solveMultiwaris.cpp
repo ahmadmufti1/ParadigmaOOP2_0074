@@ -30,6 +30,7 @@ class pelajar : public orang{
     }
 };
 
+//Membuat class budi dan mengkases class pekerja dan pelajar untuk menggunakan functionnya lalu menampilkan nilai pada setiap class tersebut 
 class budi : public pekerja, public pelajar{
     public:
     budi(int pUmur) :
