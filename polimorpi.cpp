@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//membuat class sesorang dengan akses public dan modifikasi function pesan dalam bentuk virtual untuk memberi izin pada derived class
 class seseorang{
 public:
     virtual void pesan(){
