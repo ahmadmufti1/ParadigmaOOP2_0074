@@ -19,3 +19,12 @@ class AbstraksiKlas{
         cout << "Y : " << y << endl;
     }
 };
+
+//Membuat program utama untuk menjalanjan program
+int main(){
+    AbstraksiKlas ak;
+    ak.setXY("Yogyakarta","Kampus");
+    ak.display();
+
+    return 0;
+}
