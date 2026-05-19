@@ -9,13 +9,19 @@ public:
     }
 };
 
+//membuat class joko dan mengakses class seseorang untuk menggunakan function pesan dan memodifikasinya
 class joko : public seseorang{
-public:    void pesan(){
+public:    
+    void pesan()
+    {
         cout << "joko mengirim pesan" << endl;
     }
 };
+//membuat class lia dan mengakses class seseorang untuk menggunakan function pesan dan memodifikasinya
 class lia : public seseorang{
-public:    void pesan(){
+public:    
+    void pesan()
+    {
         cout << "lia mengirim pesan" << endl;
     }
 };
