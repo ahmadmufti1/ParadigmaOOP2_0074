@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//membuat class baseClass yang berisi function perkenalan dan mengunci modifikasi
 class baseClass{
     public:
     virtual void perkenalan() final{
