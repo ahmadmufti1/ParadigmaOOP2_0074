@@ -13,4 +13,9 @@ class AbstraksiKlas{
         x = a;
         y = b;
     }
+    //membuat function display untuk menapilkan hasil
+    void display(){
+        cout << "X : " << x << endl;
+        cout << "Y : " << y << endl;
+    }
 };
