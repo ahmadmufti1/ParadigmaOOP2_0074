@@ -8,6 +8,7 @@ class baseClass{
     }
 };
 
+//membuat class derivedclass dan mengakses baseClass dan membuat function perkenalan1
 class derivedClass : public baseClass{
     public:
     void perkenalan1(){
@@ -15,6 +16,7 @@ class derivedClass : public baseClass{
     }
 };
 
+//membuat program utama untuk menjalankan program
 int main(){
     derivedClass a;
     a.perkenalan1();
