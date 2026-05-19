@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//Membuat class orang yang berisikan variabel umur dan function orang dengan parameter pUmur dan menginisialisasinya lalu menampilkannya
 class orang{
     public:
     int umur;
