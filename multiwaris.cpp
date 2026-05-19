@@ -11,3 +11,12 @@ class orang{
         cout << "orang dibuat dengan umur"<< umur  << "\n" << endl;
     }
 };
+
+//Membuat class pekerja dengan mengakses class orang untuk menggunakan fungsi maupun variabel yang ada pada class orang tersebut dan kita bisa mengubah nilainya
+class pekerja : virtual public orang{
+    public:
+    pekerja(int pUmur) : orang(pUmur)
+    {
+        cout << "pekerja dibuat\n" << endl;
+    }
+};
