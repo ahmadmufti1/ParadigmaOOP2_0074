@@ -12,6 +12,7 @@ class orang{
     }
 };
 
+//Membuat class pekerja dan mengkases class orang untuk menggunakan function orang dan memodifikasinya
 class pekerja : public orang{
     public:
     pekerja(int pUmur) : orang(pUmur)
@@ -19,6 +20,8 @@ class pekerja : public orang{
         cout << "pekerja dibuat\n" << endl;
     }
 };
+
+//Membuat class pelajar dan mengkases class orang untuk menggunakan function orang dan memodifikasinya
 class pelajar : public orang{
     public:
     pelajar(int pUmur) : orang(pUmur)
